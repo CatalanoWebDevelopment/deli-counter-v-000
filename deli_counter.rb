@@ -9,7 +9,8 @@ def line(katz_deli)
       new_array = katz_deli.map.with_index do |name, index|
       "#{index + 1}. #{name}"
     end
-
     new_array.unshift("The line is currently: ")
   end
 end
+
+# a = ["Logan", "Spencer", "Parker"]
