@@ -7,7 +7,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
       katz_deli.map.each_with_index do |people, index|
-      puts "The line is currently: #{index} #{katz_deli}"
+      puts "The line is currently: #{index}. #{ index katz_deli}"
     end
   end
 end
