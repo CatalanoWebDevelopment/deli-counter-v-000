@@ -9,6 +9,6 @@ def line(katz_deli)
       new_array = katz_deli.map_with_index do |name, index|
       "#{index + 1}. #{name}"
     end
-    new_array.join(", ").unshift(There)
+    new_array.join(", ").unshift("There")
   end
 end
