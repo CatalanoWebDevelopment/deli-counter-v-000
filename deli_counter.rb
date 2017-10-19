@@ -10,7 +10,7 @@ def line(katz_deli)
       "#{index + 1}. #{name}"
     end
     new_array.join(", ")
-    new_array.unshift("The line is currently: ")
+    new_array[1]("The line is currently: ")
   end
 end
 
