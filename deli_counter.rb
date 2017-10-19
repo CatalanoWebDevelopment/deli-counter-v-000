@@ -22,7 +22,10 @@ end
 def now_serving(katz_deli)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
-  elsif 
+  else
+    # Serve First Person in line
+    # Remove Them From Front of line
+    puts "Currently serving #{katz_deli[0]}."
   end
 end
 
