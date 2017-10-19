@@ -24,8 +24,9 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else
     # Serve First Person in line
-    # Remove Them From Front of line
     puts "Currently serving #{katz_deli[0]}."
+    # Remove Them From Front of line
+    katz_deli.shift
   end
 end
 
