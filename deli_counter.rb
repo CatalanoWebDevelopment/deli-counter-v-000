@@ -17,6 +17,7 @@ end
 def take_a_number(katz_deli, person)
   if katz_deli = []
     puts "Welcome, #{person}. You are now #{katz_deli[index + 1]} in line."
+  end
 end
 
 # a = ["Logan", "Spencer", "Parker"]
