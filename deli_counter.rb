@@ -15,7 +15,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, person)
-  katz_deli = []
+  katz_deli << person
+  puts "Welcome, #{person}. You are number #{array.length} in line."
 end
 
 # a = ["Logan", "Spencer", "Parker"]
