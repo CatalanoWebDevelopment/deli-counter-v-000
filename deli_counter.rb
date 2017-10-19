@@ -14,4 +14,9 @@ def line(katz_deli)
   end
 end
 
+def take_a_number(katz_deli, "name")
+  if katz_deli = []
+  end
+end
+
 # a = ["Logan", "Spencer", "Parker"]
