@@ -15,8 +15,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, person)
-  if katz_deli = []
-    puts "Welcome, #{person}. You are now #{katz_deli[index + 1]} in line."
+  if katz_deli.length == 0
+    
   end
 end
 
