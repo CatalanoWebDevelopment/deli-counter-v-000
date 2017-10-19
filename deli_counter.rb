@@ -8,7 +8,6 @@ def line(katz_deli)
   else
       katz_deli.map do |people|
       puts "The line is currently: #{katz_deli.join('1. ')}"
-      binding.pry
     end
   end
 end
