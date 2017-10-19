@@ -7,7 +7,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
       new_array = katz_deli.map.with_index do |name, index|
-      puts "#{index + 1}. #{name}"
+      "#{index + 1}. #{name}"
     end
     new_array.unshift("The line is currently: ")
   end
